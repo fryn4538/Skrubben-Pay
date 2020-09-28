@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/Skrubben-Pay/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Skrubben-Pay/static/js/main.c8be917f.chunk.js",
-    "main.js.map": "/Skrubben-Pay/static/js/main.c8be917f.chunk.js.map",
+    "main.css": "/Skrubben-Pay/static/css/main.24b19a65.chunk.css",
+    "main.js": "/Skrubben-Pay/static/js/main.38ce6697.chunk.js",
+    "main.js.map": "/Skrubben-Pay/static/js/main.38ce6697.chunk.js.map",
     "runtime-main.js": "/Skrubben-Pay/static/js/runtime-main.3329310a.js",
     "runtime-main.js.map": "/Skrubben-Pay/static/js/runtime-main.3329310a.js.map",
-    "static/js/2.ec12cca5.chunk.js": "/Skrubben-Pay/static/js/2.ec12cca5.chunk.js",
-    "static/js/2.ec12cca5.chunk.js.map": "/Skrubben-Pay/static/js/2.ec12cca5.chunk.js.map",
+    "static/js/2.fed47342.chunk.js": "/Skrubben-Pay/static/js/2.fed47342.chunk.js",
+    "static/js/2.fed47342.chunk.js.map": "/Skrubben-Pay/static/js/2.fed47342.chunk.js.map",
     "index.html": "/Skrubben-Pay/index.html",
-    "precache-manifest.f8fcfb7cb625d6d58ed80ad401a14f2d.js": "/Skrubben-Pay/precache-manifest.f8fcfb7cb625d6d58ed80ad401a14f2d.js",
+    "precache-manifest.e8d9cba0489db30c14c9f4b8bb11f0da.js": "/Skrubben-Pay/precache-manifest.e8d9cba0489db30c14c9f4b8bb11f0da.js",
     "service-worker.js": "/Skrubben-Pay/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Skrubben-Pay/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.ec12cca5.chunk.js.LICENSE.txt": "/Skrubben-Pay/static/js/2.ec12cca5.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Skrubben-Pay/static/media/logo.5d5d9eef.svg"
+    "static/css/main.24b19a65.chunk.css.map": "/Skrubben-Pay/static/css/main.24b19a65.chunk.css.map",
+    "static/js/2.fed47342.chunk.js.LICENSE.txt": "/Skrubben-Pay/static/js/2.fed47342.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3329310a.js",
-    "static/js/2.ec12cca5.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.c8be917f.chunk.js"
+    "static/js/2.fed47342.chunk.js",
+    "static/css/main.24b19a65.chunk.css",
+    "static/js/main.38ce6697.chunk.js"
   ]
 }
