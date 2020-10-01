@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Skrubben-Pay/static/css/main.eb5bacca.chunk.css",
-    "main.js": "/Skrubben-Pay/static/js/main.354f0a10.chunk.js",
-    "main.js.map": "/Skrubben-Pay/static/js/main.354f0a10.chunk.js.map",
+    "main.js": "/Skrubben-Pay/static/js/main.ec091bdd.chunk.js",
+    "main.js.map": "/Skrubben-Pay/static/js/main.ec091bdd.chunk.js.map",
     "runtime-main.js": "/Skrubben-Pay/static/js/runtime-main.3329310a.js",
     "runtime-main.js.map": "/Skrubben-Pay/static/js/runtime-main.3329310a.js.map",
     "static/js/2.89b171bd.chunk.js": "/Skrubben-Pay/static/js/2.89b171bd.chunk.js",
     "static/js/2.89b171bd.chunk.js.map": "/Skrubben-Pay/static/js/2.89b171bd.chunk.js.map",
     "index.html": "/Skrubben-Pay/index.html",
-    "precache-manifest.19ce9c743c5fc436eb0a788bdd8e2853.js": "/Skrubben-Pay/precache-manifest.19ce9c743c5fc436eb0a788bdd8e2853.js",
+    "precache-manifest.d5cbc182f72c194c4eddf5614c2055fc.js": "/Skrubben-Pay/precache-manifest.d5cbc182f72c194c4eddf5614c2055fc.js",
     "service-worker.js": "/Skrubben-Pay/service-worker.js",
     "static/css/main.eb5bacca.chunk.css.map": "/Skrubben-Pay/static/css/main.eb5bacca.chunk.css.map",
     "static/js/2.89b171bd.chunk.js.LICENSE.txt": "/Skrubben-Pay/static/js/2.89b171bd.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.3329310a.js",
     "static/js/2.89b171bd.chunk.js",
     "static/css/main.eb5bacca.chunk.css",
-    "static/js/main.354f0a10.chunk.js"
+    "static/js/main.ec091bdd.chunk.js"
   ]
 }
