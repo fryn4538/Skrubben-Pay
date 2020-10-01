@@ -1,3 +1,7 @@
+body{
+  margin-bottom: 90px;
+}
+
 footer {
   height: 70px;
   width: 100%;
@@ -7,6 +11,21 @@ footer {
   font-size: 1.5rem;
   position: fixed;
   bottom: 0px;
+  background-color: blue;
+}
+input {
+  width: 10vw;
+}
+.card {
+  border: 1px;
+  background-color: green;
+  margin: 2px; 
+}
+.inline {
+    display:inline;
+}
+.size {
+    width: 20vw;
 }
 .App {
   text-align: center;
