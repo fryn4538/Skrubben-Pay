@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Skrubben-Pay/precache-manifest.d5cbc182f72c194c4eddf5614c2055fc.js"
+  "/Skrubben-Pay/precache-manifest.a3a4ebe54f793c9f3bc7ee1e715220ad.js"
 );
 
 self.addEventListener('message', (event) => {
