@@ -7,7 +7,8 @@ import {listOfItems} from './items.js';
 function App() {
 
   const [cart, setCart] = useState([]);
-  
+  const [cost, setCost] = useState(0);  
+
   function onSwish(){
     var price = 0;
     var msg = "";
@@ -34,6 +35,7 @@ function App() {
     for(var i = 0; i < cart.length; ++i){
       if(cart[i] === product){
         cart.splice(i,1);
+        setCost(cost - Number(product.price));
         break;
       }
     }
@@ -43,6 +45,7 @@ function App() {
 
   const addToCart = (product) => {
       setCart([...cart,product]);
+      setCost(cost + Number(product.price));
   }
   
   const numOfItems = (product) => {
@@ -61,25 +64,28 @@ function App() {
         <h1>Skrubben-Pay</h1>
       </header>
       {listOfItems.map((item,key) =>(
-        <div className='card'>
-          <div className='inline'>
+        <div className='cards'>
+          <div className='card'>
             <img className='size' src={item.img} alt=""></img>
-            <p className=''>{item.name}</p>
           </div>
           
-          <p className='inline'>{item.price} kr</p>
+          <p className='card'>{item.price} kr</p>
 
-          <div className='inline'>
-            <button onClick={() => removeFromCart(item)}>-</button>
-            <p>
+          <div className='card'>
+            <button className='inline button' onClick={() => removeFromCart(item)}>
+              <p className="buttonText">-</p>
+            </button>
+            <p className='inline'>
               {numOfItems(item)}
             </p>
-            <button onClick={() => addToCart(item)} className=''>+</button>
+            <button className='inline button' onClick={() => addToCart(item)}>
+              <p className="buttonText">+</p>
+            </button>
           </div>
         </div>
       ))}
-      <footer>
-        <a onClick={onSwish}>Swish</a>
+      <footer onClick={onSwish}>
+        <p>Swisha {cost} kr</p>
       </footer>
     </div>
     

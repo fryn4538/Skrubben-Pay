@@ -41,9 +41,9 @@ export const listOfItems = [
     img: 'https://fryn4538.github.io/Skrubben-Pay/img/lp.png',
   }, 
   {
-    name: "Celsius Citron/lime",
+    name: "Celsius Citron",
     price: "22",
-    id: "cel",
+    id: "cc",
     img: 'https://fryn4538.github.io/Skrubben-Pay/img/cel.png',
   },
   {

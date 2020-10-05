@@ -1,5 +1,5 @@
 body{
-  margin-bottom: 90px;
+  margin-bottom: 110px;
 }
 
 footer {
@@ -11,15 +11,49 @@ footer {
   font-size: 1.5rem;
   position: fixed;
   bottom: 0px;
-  background-color: blue;
+  background-color: #71002E;
+  border-radius: 40px 40px 0px 0px;
+  padding-bottom: 5%;
+}
+footer > p {
+    color: white;
+}
+header {
+  background-color: #71002E;
+  padding: 1vh;
+  margin-bottom: 1vh;
+}
+header > h1 {
+    color: white;
 }
 input {
   width: 10vw;
 }
-.card {
-  border: 1px;
-  background-color: green;
-  margin: 2px; 
+p {
+    padding: 0;
+    margin: 0;
+}
+
+.button {
+  background-color: #71002E;
+  color: white;
+  font-size: 1rem;
+  border: none;  
+  margin: 4px 6px;
+  border-radius: 50px;
+}
+.buttonText {
+   padding: 0.5rem; 
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  align-items: center;
+  padding:1em;
+  border: 1px solid;
+  border-radius: 50px;
+  margin: 0.2em 2em 0.2em 2em;
 }
 .inline {
     display:inline;
@@ -36,11 +70,6 @@ input {
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
