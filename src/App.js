@@ -8,6 +8,7 @@ function App() {
 
   const [cart, setCart] = useState([]);
   const [cost, setCost] = useState(0);  
+  const [items, setItems] = useState(listOfItems);
 
   function onSwish(){
     var price = 0;
@@ -58,12 +59,29 @@ function App() {
       return count;
   }
 
+  const seachFilter = event => {
+    const tmp = [];
+    const str = event.target.value.toUpperCase(); 
+    for(var i = 0; i<listOfItems.length; ++i){
+        if(listOfItems[i].name.toUpperCase().includes(str)){
+            tmp.push(listOfItems[i]);
+        }
+    }
+
+    setItems(tmp);
+  }
+
   return (
     <div className="App">
       <header>
         <h1>Skrubben-Pay</h1>
       </header>
-      {listOfItems.map((item,key) =>(
+      
+      <div>
+        <input type="text" className="search" onChange={seachFilter} name="fname" placeholder="Search for items"/>
+      </div>
+
+      {items.map((item,key) =>(
         <div className='cards'>
           <div className='card'>
             <img className='size' src={item.img} alt=""></img>

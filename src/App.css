@@ -26,9 +26,7 @@ header {
 header > h1 {
     color: white;
 }
-input {
-  width: 10vw;
-}
+
 p {
     padding: 0;
     margin: 0;
@@ -56,11 +54,20 @@ p {
   margin: 0.2em 2em 0.2em 2em;
 }
 .inline {
-    display:inline;
+  display:inline;
 }
 .size {
-    width: 20vw;
+  width: 20vw;
 }
+.search {
+  text-align: center;
+  width: 60vw;
+  height: 6vh;
+  border: 1px solid;
+  border-radius: 50px;
+  margin: 0.2em 2em 0.2em 2em;
+}
+
 .App {
   text-align: center;
 }
