@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2568b59d9f9a845203323eeb07446660",
+    "revision": "78b75188f6515eb8e9a0fd24d5bb29ad",
     "url": "/Skrubben-Pay/index.html"
   },
   {
