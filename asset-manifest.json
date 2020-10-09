@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/Skrubben-Pay/static/css/main.94239bc0.chunk.css",
-    "main.js": "/Skrubben-Pay/static/js/main.a9ff751a.chunk.js",
-    "main.js.map": "/Skrubben-Pay/static/js/main.a9ff751a.chunk.js.map",
+    "main.css": "/Skrubben-Pay/static/css/main.bb0923df.chunk.css",
+    "main.js": "/Skrubben-Pay/static/js/main.b7c472a2.chunk.js",
+    "main.js.map": "/Skrubben-Pay/static/js/main.b7c472a2.chunk.js.map",
     "runtime-main.js": "/Skrubben-Pay/static/js/runtime-main.3329310a.js",
     "runtime-main.js.map": "/Skrubben-Pay/static/js/runtime-main.3329310a.js.map",
-    "static/js/2.7417b907.chunk.js": "/Skrubben-Pay/static/js/2.7417b907.chunk.js",
-    "static/js/2.7417b907.chunk.js.map": "/Skrubben-Pay/static/js/2.7417b907.chunk.js.map",
+    "static/js/2.fb0df817.chunk.js": "/Skrubben-Pay/static/js/2.fb0df817.chunk.js",
+    "static/js/2.fb0df817.chunk.js.map": "/Skrubben-Pay/static/js/2.fb0df817.chunk.js.map",
     "index.html": "/Skrubben-Pay/index.html",
-    "precache-manifest.6bd5347099d4ab2d3ff9b22d7e736f10.js": "/Skrubben-Pay/precache-manifest.6bd5347099d4ab2d3ff9b22d7e736f10.js",
+    "precache-manifest.5ee64b18b6ffaaedfd74664e08258e32.js": "/Skrubben-Pay/precache-manifest.5ee64b18b6ffaaedfd74664e08258e32.js",
     "service-worker.js": "/Skrubben-Pay/service-worker.js",
-    "static/css/main.94239bc0.chunk.css.map": "/Skrubben-Pay/static/css/main.94239bc0.chunk.css.map",
-    "static/js/2.7417b907.chunk.js.LICENSE.txt": "/Skrubben-Pay/static/js/2.7417b907.chunk.js.LICENSE.txt"
+    "static/css/main.bb0923df.chunk.css.map": "/Skrubben-Pay/static/css/main.bb0923df.chunk.css.map",
+    "static/js/2.fb0df817.chunk.js.LICENSE.txt": "/Skrubben-Pay/static/js/2.fb0df817.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3329310a.js",
-    "static/js/2.7417b907.chunk.js",
-    "static/css/main.94239bc0.chunk.css",
-    "static/js/main.a9ff751a.chunk.js"
+    "static/js/2.fb0df817.chunk.js",
+    "static/css/main.bb0923df.chunk.css",
+    "static/js/main.b7c472a2.chunk.js"
   ]
 }
