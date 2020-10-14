@@ -186,7 +186,8 @@ export const listOfItems = [
     price: "9",
     id: "ps",
     img: 'https://fryn4538.github.io/Skrubben-Pay/img/ps.png',
-  },{
+  },
+  {
     name: "Pringles Paprika",
     price: "9",
     id: "pp",
