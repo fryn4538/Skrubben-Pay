@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "37f9523f9e37e6f930e97c6dc0353c6e",
+    "revision": "9f52f198b3195e6dc069058651a8b353",
     "url": "/Skrubben-Pay/index.html"
   },
   {
-    "revision": "8a2b5cae0aa4dcc0e2c0",
+    "revision": "30cf671bcb4b253a5d67",
     "url": "/Skrubben-Pay/static/css/main.b3d52d0c.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/Skrubben-Pay/static/js/2.1b5bd3bc.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "8a2b5cae0aa4dcc0e2c0",
-    "url": "/Skrubben-Pay/static/js/main.f116acfc.chunk.js"
+    "revision": "30cf671bcb4b253a5d67",
+    "url": "/Skrubben-Pay/static/js/main.3ebad1bd.chunk.js"
   },
   {
     "revision": "e86c5bb3a39b1ba8060f",
