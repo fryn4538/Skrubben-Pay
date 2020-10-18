@@ -42,19 +42,19 @@ export const listOfItems = [
   }, 
   {
     name: "Celsius Citron",
-    price: "22",
+    price: "20",
     id: "cc",
     img: 'https://fryn4538.github.io/Skrubben-Pay/img/cel.png',
   },
   {
     name: "Nocco Miami",
-    price: "22",
+    price: "20",
     id: "nm",
     img: 'https://fryn4538.github.io/Skrubben-Pay/img/nm.png',
   }, 
   {
     name: "Nocco Caribbean",
-    price: "22",
+    price: "20",
     id: "nc",
     img: 'https://fryn4538.github.io/Skrubben-Pay/img/nc.png',
   },

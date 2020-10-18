@@ -1,38 +1,36 @@
-body{
+body, body:focus{
   margin-bottom: 110px;
 }
 
-footer {
+footer, footer:focus {
   height: 70px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   font-size: 1.5rem;
   position: fixed;
   bottom: 0px;
   background-color: #71002E;
-  border-radius: 40px 40px 0px 0px;
   padding-bottom: 5%;
+  color: white;
 }
-footer > p {
-    color: white;
-}
-header {
+
+header, header:focus {
   background-color: #71002E;
   padding: 1vh;
   margin-bottom: 1vh;
 }
-header > h1 {
+header > h1, header > h2 {
     color: white;
 }
 
-p {
+p, p:focus {
     padding: 0;
     margin: 0;
 }
 
-.button {
+.button, .button:focus {
   background-color: #71002E;
   color: white;
   font-size: 1rem;
@@ -43,7 +41,7 @@ p {
 .buttonText {
    padding: 0.5rem; 
 }
-.cards {
+.cards, .cards:focus {
   display: flex;
   justify-content: space-between;
   background-color: white;
@@ -53,13 +51,19 @@ p {
   border-radius: 50px;
   margin: 0.2em 2em 0.2em 2em;
 }
+.hidden {
+    display: none;
+}
 .inline {
   display:inline;
 }
-.size {
+.pToSwish {
+  margin-right: 8vw;
+}
+.size, .size:focus {
   width: 20vw;
 }
-.search {
+.search, .search:focus {
   text-align: center;
   width: 60vw;
   height: 6vh;
@@ -67,7 +71,6 @@ p {
   border-radius: 50px;
   margin: 0.2em 2em 0.2em 2em;
 }
-
 .App {
   text-align: center;
 }
