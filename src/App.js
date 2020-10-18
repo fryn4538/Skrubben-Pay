@@ -64,7 +64,7 @@ function App() {
       } else {
         alert("You have to be on a mobile device");
       }     
-      setToSwish(false);
+      onBack();
     }
     
     return;
